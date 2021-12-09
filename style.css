@@ -1,0 +1,116 @@
+nav {  
+    background-color: white;  
+    position: fixed;  
+    left: 0;
+    top: 0;  
+    right: 0;  
+    height: 65px;  
+    align-items: right;  
+    box-shadow: 0 0 25px 0 black; 
+}    
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: skyblue;
+}
+h1 {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+input {
+   width:285px;
+   padding-right: 0px;
+   padding-left: 5px;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   outline: none; 
+   margin-bottom: 30px;
+   margin-right: 0px;
+   margin-left: 0px;
+   
+}
+input[type="submit"] {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: dodgerblue;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 4px;
+
+}
+fieldset {
+    padding: 30px 40px;
+    justify-content: center;
+    align-self: center;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+form {
+    width: 24rem;
+    margin-top: 50px;
+}
+
+#btn1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    width: 100px;
+}
+
+#btn2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    margin-left: 0;
+    width: 100px;
+}
+#btn1, #btn2 {
+    float:right;
+    justify-content: center;
+    display: flex;font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: dodgerblue;
+    color: white;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 4px;
+}
+.socialIcons {
+    margin-left: 100px;
+    font-size: 2rem;
+	height: 3.6rem;
+	line-height: 3.6rem;
+	margin: 0 5px;
+	position: relative;
+	text-align: center;
+}
+#amazon {
+    color: #ff9900;
+    background-color: black;
+    border-radius: 50%;
+}
+#facebook {  
+    background: white;  
+    color: #3B5998;  
+    border-radius: 50%;
+    
+}
+#instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border-radius: 50%;
+}
+#slack {
+    background: radial-gradient(circle at 30% 107%, #36C5F0 0%, #ECB22E 5%, #2EB67D 45%,#E01E5A 60%,#4A154B 90%);
+    border-radius: 50%;
+}
